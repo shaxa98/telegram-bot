@@ -1,0 +1,22 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "## Final Result of main page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaxa98/telegram-bot.git"
+  },
+  "author": "Shakhzod Akhrorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaxa98/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/shaxa98/telegram-bot#readme",
+  "dependencies": {
+    "telegraf": "^4.11.2"
+  }
+}
