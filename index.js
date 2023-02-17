@@ -15,23 +15,23 @@ bot.hears("yil", (ctx) => {
 });
 bot.hears("oy", (ctx) => {
   const month = [
-    "January",
-    "February",
-    "March",
-    "April",
+    "Yanvar",
+    "Fevral",
+    "Mart",
+    "Aprel",
     "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    "Iyun",
+    "Iyul",
+    "Avgust",
+    "Sentsbr",
+    "Oktyabr",
+    "Noyabr",
+    "Dekabr",
   ];
 
   const data = new Date();
   let nmonth = month[data.getMonth()];
-  ctx.reply("hozir" + nmonth.toString() + " oyi");
+  ctx.reply("hozir " + nmonth.toString() + " oyi");
   return ctx;
 });
 bot.hears("kun", (ctx) => {
