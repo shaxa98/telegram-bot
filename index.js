@@ -48,5 +48,13 @@ bot.hears("soat", (ctx) => {
   ctx.reply(hours.toString() + " : " + minut.toString());
   return ctx;
 });
+bot.on("message", (ctx) => {
+  const text = ctx.update.message.text;
+  const low = text.toLowerCase();
+
+  ctx.reply(low + ` Bu xabaringizni tushnaolmadim! Uzur  `);
+
+  console.log(low + ` Bu xabaringizni tushnaolmadim! Uzur  `);
+});
 
 bot.launch();
