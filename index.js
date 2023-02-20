@@ -1,7 +1,11 @@
 const { Telegraf } = require("telegraf");
-const { shaxzodBot } = require("./secret.js");
+// const { shaxzodBot } = require("./secret.js");
+// const bot = new Telegraf(shaxzodBot);
 
-const bot = new Telegraf(shaxzodBot);
+//require("dotenv").config();
+const bot = new Telegraf(process.env.BOT_TOKEN);
+//console.log(process.env.BOT_TOKEN);
+
 bot.start((ctx) => ctx.reply("Xush kelibsiz"));
 bot.help((ctx) => ctx.reply("sizga qanday yordam bera olaman"));
 

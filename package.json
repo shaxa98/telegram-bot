@@ -4,6 +4,8 @@
   "description": "## Final Result of main page",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/shaxa98/telegram-bot#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
     "telegraf": "^4.11.2"
   }
 }
+
+
+
